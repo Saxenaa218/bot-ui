@@ -1,0 +1,34 @@
+.index-container {
+    position: "absolute";
+    bottom: 10;
+    right: 10;
+}
+
+.index {
+  border: 2px solid lightgray;
+  height: 100%;
+}
+
+.left-box {
+  padding: 5px 10px;
+  border: 1px solid dimgray;
+  width: fit-content;
+  border-radius: 0px 10px 10px 10px;
+}
+
+.right-box {
+  padding: 5px 10px;
+  border: 1px solid dimgray;
+  width: fit-content;
+  border-radius: 10px 0px 10px 10px;
+}
+
+.left {
+  margin: 0px 0px 5px 0px;
+  text-align: -webkit-left;
+}
+
+.right {
+  margin: 0px 0px 5px 0px;
+  text-align: -webkit-right;
+}
