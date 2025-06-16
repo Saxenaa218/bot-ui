@@ -1,17 +1,28 @@
 {
-  "name": "bot-ui",
-  "version": "0.0.0",
+  "name": "bot-ui-nextjs",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
-    "mongoose": "^5.8.10",
-    "morgan": "~1.9.1"
+    "antd": "^5.26.1",
+    "next": "15.3.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
